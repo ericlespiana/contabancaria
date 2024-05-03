@@ -11,7 +11,7 @@ public class Menu
 	public static void main(String[] args)
 	{
 		Scanner readIn = new Scanner(System.in);
-		int		option = 0;
+		int		option = 0;	
 		
 		do
 		{
