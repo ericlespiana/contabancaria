@@ -2,7 +2,7 @@ package conta.model;
 
 public abstract class Conta
 {
-	private			String	owner;
+	private	String	owner;
 	private float	balance;
 	private int		number;
 	private int		agency;

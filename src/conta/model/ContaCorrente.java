@@ -21,12 +21,21 @@ public class ContaCorrente extends Conta
 	@Override
 	public boolean remove(float value)
 	{
-		if (this.getBalance() + this.getLimit() <= 0)
+		if (this.getBalance() + this.getLimit() < value)
 		{
 			System.out.println("\nSaldo insuficiente!");
 			return (false);
-		}		
-		this.setBalance(this.getBalance() - value);
+		}
+		
+		if (this.getBalance() >= value)
+			this.setBalance(this.getBalance() - value);
+		else if (this.getBalance() > 0)
+		{
+			limit -= (value - (this.getBalance()));
+			this.setBalance(0);
+		}
+		else
+			limit -= value;
 		return (true);
 	}
 		
