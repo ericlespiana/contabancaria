@@ -14,32 +14,6 @@ Este é um projeto de uma aplicação de Conta Bancária desenvolvida em Java. P
 - **Transferir valores entre Contas:** Transfere valores de uma conta para outra.
 - **Sair:** Encerra a execução do programa.
 
-## Como Utilizar
-
-1. Clone o repositório:
-
-```
-git clone https://github.com/ericlespiana/contabancaria.git
-````
-
-2. Navegue até o diretório do projeto:
-
-```
-cd contabancaria
-```
-
-3. Compile os arquivos fonte:
-
-```
-javac *.java
-```
-
-4. Execute a aplicação:
-
-```bash
-java Main
-```
-
 # Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request ou relatar problemas através das issues.
